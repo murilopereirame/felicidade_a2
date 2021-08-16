@@ -1,0 +1,88 @@
+.fs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  max-width: 768px;
+  height: 100%;
+  justify-content: center;
+}
+
+.fs-container p {
+  color: #e72032;
+  text-align: center;
+  margin: 0;
+  padding: 0 4.5rem;
+}
+
+.fs-container form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.fs-container form input {
+  width: 75%;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid white;
+  background-color: white;
+  padding: 0.15rem 0.5rem 0.25rem 0.5rem;
+}
+
+.fs-wrapper {
+  cursor: pointer;
+  position: absolute;
+  bottom: -4.25rem;
+  z-index: 2;
+  text-align: center;
+}
+
+.fs-btn {
+  background-color: #e72032;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fs-btn span {
+  color: #fff;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.fs-wrapper > span {
+  font-size: 0.5rem;
+  color: #e72032;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 360px) {
+  .fs-container p {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fs-container p {
+    font-size: 1.25rem;
+  }
+
+  .fs-wrapper > span {
+    font-size: 0.75;
+  }
+  .fs-btn {
+    padding: 0.5rem 5rem;
+  }
+  .fs-btn span {
+    font-size: 1.5rem;
+  }
+}

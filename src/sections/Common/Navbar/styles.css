@@ -1,0 +1,35 @@
+.nav-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  border-radius: 1.25rem;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 1.75rem;
+  z-index: 3;
+  max-width: 768px;
+}
+
+.nav-logo img {
+  width: 9rem;
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.nav-social img {
+  width: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-social {
+    width: 30%;
+  }
+}

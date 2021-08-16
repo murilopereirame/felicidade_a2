@@ -1,0 +1,36 @@
+.mn-container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.mn-content {
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(150deg, #000, 60%, #6c6c6c);
+  background: -webkit-linear-gradient(
+    135deg,
+    #000,
+    60%,
+    #6c6c6c
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    135deg,
+    #000,
+    60%,
+    #6c6c6c
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    135deg,
+    #000,
+    60%,
+    #6c6c6c
+  ); /* For Firefox 3.6 to 15 */
+}
