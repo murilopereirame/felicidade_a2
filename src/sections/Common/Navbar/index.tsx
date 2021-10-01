@@ -15,17 +15,33 @@ const Navbar = () => {
         </a>
       </div>
       <div className="nav-social">
-        <a href="#">
-          <img src={whatsapp} />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://api.whatsapp.com/send?1=pt_BR&phone=5518997488990"
+        >
+          <img src={whatsapp} alt="WhatsApp" />
         </a>
-        <a href="#">
-          <img src={facebook} />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/alcionericci"
+        >
+          <img src={facebook} alt="Facebook" />
         </a>
-        <a href="#">
-          <img src={ig} />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/alcionericci/"
+        >
+          <img src={ig} alt="Instagram" />
         </a>
-        <a href="#">
-          <img src={email} />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:contato@alfabetizacaoafetiva.com.br"
+        >
+          <img src={email} alt="Email" />
         </a>
       </div>
     </div>

@@ -76,6 +76,10 @@
     font-size: 1.25rem;
   }
 
+  .fs-wrapper {
+    bottom: -4.75rem;
+  }
+
   .fs-wrapper > span {
     font-size: 0.75;
   }

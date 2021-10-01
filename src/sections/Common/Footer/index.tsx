@@ -9,11 +9,9 @@ const Footer = () => {
           <img src={alcione} alt="Alcione" />
         </div>
         <p>
-          Você quer melhorar o seu relacionamento afetivo? Assista a aula
-          inédita onde a psicóloga Alcione Ricci faz uma síntese da sua
-          experiência acumulada em quase 40 anos de atividade clínica atendendo
-          casais de todas as idades. O conteúdo é indicado para quem busca a
-          Felicidade A2.
+          Com vasta experiência clínica e Especialista em Terapia de Casal e
+          Família, vai te ajudar a melhorar seu relacionamento, e a encontrar a
+          felicidade A2.
         </p>
       </div>
     </div>

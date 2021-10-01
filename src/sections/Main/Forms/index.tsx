@@ -74,7 +74,6 @@ const Forms = () => {
         <div
           onClick={() => {
             formRef.current?.submit();
-            console.log("TRr");
           }}
           className="fs-btn"
         >

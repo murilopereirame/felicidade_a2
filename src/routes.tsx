@@ -1,5 +1,6 @@
 import {
   BrowserRouter as Router,
+  HashRouter,
   Redirect,
   Route,
   Switch,
@@ -9,13 +10,13 @@ import Register from "./pages/Register";
 
 const Routes = () => {
   return (
-    <Router basename={"/felicidadea2"}>
+    <HashRouter basename={"/captacao"}>
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/sucesso" component={Register} />
         <Redirect to="/" />
       </Switch>
-    </Router>
+    </HashRouter>
   );
 };
 
