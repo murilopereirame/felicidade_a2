@@ -7,7 +7,7 @@
   width: 80%;
   border-radius: 1.25rem;
   padding: 0.5rem 1rem;
-  position: fixed;
+  position: absolute;
   top: 1.75rem;
   z-index: 3;
   max-width: 768px;

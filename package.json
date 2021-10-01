@@ -43,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://www.alfabetizacaoafetiva.com.br/felicidadea2",
+  "homepage": "https://www.alfabetizacaoafetiva.com.br/captacao",
   "devDependencies": {
     "@types/react-input-mask": "^3.0.1",
     "@types/react-router-dom": "^5.1.8"
